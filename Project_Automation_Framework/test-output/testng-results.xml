@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-04T02:55:06 IST" name="Suite" finished-at="2025-05-04T02:55:15 IST" duration-ms="9446">
+    <groups>
+      <group name="ST">
+        <method signature="LearningWithEnabled.modifyTest()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" name="modifyTest" class="testNG_practice.LearningWithEnabled"/>
+        <method signature="LearningWithInvocationCount.deleteTest()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" name="deleteTest" class="testNG_practice.LearningWithInvocationCount"/>
+        <method signature="LearningWithDataProvider.setData(java.lang.String,java.lang.String)[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" name="setData" class="testNG_practice.LearningWithDataProvider"/>
+        <method signature="LearningWithPriority.methodTest()[pri:1, instance:testNG_practice.LearningWithPriority@4c39bec8]" name="methodTest" class="testNG_practice.LearningWithPriority"/>
+      </group> <!-- ST -->
+      <group name="RT">
+        <method signature="LearningWithEnabled.actionTest()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" name="actionTest" class="testNG_practice.LearningWithEnabled"/>
+        <method signature="LearningWithDependsOnMethod.createTest()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" name="createTest" class="testNG_practice.LearningWithDependsOnMethod"/>
+        <method signature="LearningWithDataProvider.setData(java.lang.String,java.lang.String)[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" name="setData" class="testNG_practice.LearningWithDataProvider"/>
+      </group> <!-- RT -->
+    </groups>
+    <test started-at="2025-05-04T02:55:06 IST" name="Test2" finished-at="2025-05-04T02:55:15 IST" duration-ms="9247">
+      <class name="testNG_practice.LearningWithDataProvider">
+        <test-method is-config="true" signature="beforeSuiteConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="beforeSuiteConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteConfiguration -->
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="beforeClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="setData(java.lang.String,java.lang.String)[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="setData" data-provider="getData" finished-at="2025-05-04T02:55:06 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tewary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="setData(java.lang.String,java.lang.String)[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="setData" data-provider="getData" finished-at="2025-05-04T02:55:06 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tewary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="setData(java.lang.String,java.lang.String)[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="setData" data-provider="getData" finished-at="2025-05-04T02:55:06 IST" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandipa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tewary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="afterClassConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:06 IST" name="afterClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfiguration -->
+        <test-method is-config="true" signature="afterSuiteConfiguration()[pri:0, instance:testNG_practice.LearningWithDataProvider@8c3b9d]" started-at="2025-05-04T02:55:15 IST" name="afterSuiteConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteConfiguration -->
+      </class> <!-- testNG_practice.LearningWithDataProvider -->
+      <class name="testNG_practice.LearningWithPriority">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:06 IST" name="beforeClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="methodTest()[pri:1, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:06 IST" name="methodTest" finished-at="2025-05-04T02:55:15 IST" duration-ms="8706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:15 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:15 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="actionTest()[pri:2, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:15 IST" name="actionTest" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:15 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="afterClassConfiguration()[pri:0, instance:testNG_practice.LearningWithPriority@4c39bec8]" started-at="2025-05-04T02:55:15 IST" name="afterClassConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfiguration -->
+      </class> <!-- testNG_practice.LearningWithPriority -->
+      <class name="testNG_practice.LearningWithDependsOnMethod">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="beforeClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="createTest()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="createTest" finished-at="2025-05-04T02:55:06 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="actionTest()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="actionTest" finished-at="2025-05-04T02:55:06 IST" depends-on-methods="testNG_practice.LearningWithDependsOnMethod.createTest" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="afterClassConfiguration()[pri:0, instance:testNG_practice.LearningWithDependsOnMethod@1f59a598]" started-at="2025-05-04T02:55:06 IST" name="afterClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfiguration -->
+      </class> <!-- testNG_practice.LearningWithDependsOnMethod -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-05-04T02:55:06 IST" name="Test1" finished-at="2025-05-04T02:55:15 IST" duration-ms="9446">
+      <class name="testNG_practice.LearningWithInvocationCount">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="beforeClassConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="deleteTest()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="deleteTest" finished-at="2025-05-04T02:55:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method signature="deleteTest()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="deleteTest" finished-at="2025-05-04T02:55:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="afterClassConfiguration()[pri:0, instance:testNG_practice.LearningWithInvocationCount@489115ef]" started-at="2025-05-04T02:55:15 IST" name="afterClassConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfiguration -->
+      </class> <!-- testNG_practice.LearningWithInvocationCount -->
+      <class name="testNG_practice.LearningWithEnabled">
+        <test-method is-config="true" signature="beforeClassConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="beforeClassConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="actionTest()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="actionTest" finished-at="2025-05-04T02:55:06 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="beforeMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="beforeMethodConfiguration" finished-at="2025-05-04T02:55:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodConfiguration -->
+        <test-method signature="modifyTest()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:06 IST" name="modifyTest" finished-at="2025-05-04T02:55:15 IST" duration-ms="9150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyTest -->
+        <test-method is-config="true" signature="afterMethodConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:15 IST" name="afterMethodConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfiguration -->
+        <test-method is-config="true" signature="afterClassConfiguration()[pri:0, instance:testNG_practice.LearningWithEnabled@4116aac9]" started-at="2025-05-04T02:55:15 IST" name="afterClassConfiguration" finished-at="2025-05-04T02:55:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassConfiguration -->
+      </class> <!-- testNG_practice.LearningWithEnabled -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
