@@ -13,6 +13,15 @@ public class LearningWithEnabled extends BaseClass {
 		driver.manage().window().maximize();
 		driver.get("http://49.249.28.218:8888/");
 		System.out.println("This is method test from LearningWithEnabled");
+		String browser= System.getProperty("browser");
+		String url= System.getProperty("url");
+		String username= System.getProperty("username");
+		String password= System.getProperty("password");
+		
+		System.out.println(browser);
+		System.out.println(url);
+		System.out.println(username);
+		System.out.println(password);
 	}
 
 	@Test(enabled = true , groups = "RT")
