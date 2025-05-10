@@ -15,7 +15,11 @@ public class LearningWithDependsOnMethod extends BaseClass {
 		String url= System.getProperty("url");
 		String username= System.getProperty("username");
 		String password= System.getProperty("password");
-
+		
+		System.out.println(browser);
+		System.out.println(url);
+		System.out.println(username);
+		System.out.println(password);
 	}
 
 	@Test(dependsOnMethods = "createTest")
