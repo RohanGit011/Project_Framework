@@ -16,4 +16,10 @@ public class CreateContactTest {
 		System.out.println("This is final method");
 	}
 
+	@Test
+	public void accelerateTest()
+	{
+		System.out.println("This is accelerate method");
+	}
+
 }
